@@ -1,0 +1,1 @@
+go get -u git.chinawayltd.com/golib/tools/cmd/tools
