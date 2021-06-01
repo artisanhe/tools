@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"runtime/debug"
 
-	"gorm.io/gorm"
+	"github.com/artisanhe/gorm"
 )
 
 const (

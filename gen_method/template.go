@@ -256,7 +256,7 @@ import (
     "github.com/artisanhe/tools/timelib"{{else if eq .CreateTimeFieldType "timelib.MySQLTimestamp"}}
     "github.com/artisanhe/tools/timelib"{{end}}
     "github.com/artisanhe/tools/mysql/dberr"
-    "gorm.io/gorm"
+    "github.com/artisanhe/gorm"
     "github.com/go-sql-driver/mysql"
     "github.com/sirupsen/logrus"
     "github.com/artisanhe/tools/courier/enumeration"

@@ -13,6 +13,9 @@ github.com/StackExchange/wmi
 # github.com/apache/rocketmq-client-go v1.2.5
 ## explicit
 github.com/apache/rocketmq-client-go/core
+# github.com/artisanhe/gorm v0.0.0-20210601121408-a1fa2ecc4ae7
+## explicit
+github.com/artisanhe/gorm
 # github.com/davecgh/go-spew v1.1.1
 ## explicit
 github.com/davecgh/go-spew/spew
@@ -91,10 +94,6 @@ github.com/google/uuid
 github.com/gorilla/websocket
 # github.com/inconshreveable/mousetrap v1.0.0
 github.com/inconshreveable/mousetrap
-# github.com/jinzhu/inflection v1.0.0
-github.com/jinzhu/inflection
-# github.com/jinzhu/now v1.1.2
-github.com/jinzhu/now
 # github.com/josharian/intern v1.0.0
 github.com/josharian/intern
 # github.com/json-iterator/go v1.1.9
@@ -104,6 +103,9 @@ github.com/json-iterator/go
 github.com/julienschmidt/httprouter
 # github.com/leodido/go-urn v1.2.0
 github.com/leodido/go-urn
+# github.com/lib/pq v1.10.2
+## explicit
+github.com/lib/pq/hstore
 # github.com/mailru/easyjson v0.7.6
 github.com/mailru/easyjson/buffer
 github.com/mailru/easyjson/jlexer
@@ -319,8 +321,3 @@ gopkg.in/yaml.v2
 gopkg.in/yaml.v3
 # gorm.io/gorm v1.21.10
 ## explicit
-gorm.io/gorm
-gorm.io/gorm/clause
-gorm.io/gorm/logger
-gorm.io/gorm/schema
-gorm.io/gorm/utils

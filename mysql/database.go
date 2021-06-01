@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"gorm.io/gorm"
+	"github.com/artisanhe/gorm"
 )
 
 func connectMysql(conn string, poolSize int, maxLifetime time.Duration) (*gorm.DB, error) {

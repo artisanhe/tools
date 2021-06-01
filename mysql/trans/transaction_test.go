@@ -6,7 +6,7 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 
-	"gorm.io/gorm"
+	"github.com/artisanhe/gorm"
 )
 
 type Role struct {

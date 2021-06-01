@@ -5,7 +5,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"gorm.io/gorm"
+	"github.com/artisanhe/gorm"
 
 	"github.com/artisanhe/tools/env"
 )

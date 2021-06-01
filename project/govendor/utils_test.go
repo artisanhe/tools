@@ -5,5 +5,5 @@ import (
 )
 
 func TestUpdatePkg(t *testing.T) {
-	UpdatePkg("gorm.io/gorm")
+	UpdatePkg("github.com/artisanhe/gorm")
 }

@@ -11,7 +11,7 @@ import (
 	"github.com/fatih/color"
 	"github.com/sirupsen/logrus"
 
-	"gorm.io/gorm"
+	"github.com/artisanhe/gorm"
 
 	"github.com/artisanhe/tools/conf"
 	"github.com/artisanhe/tools/conf/presets"

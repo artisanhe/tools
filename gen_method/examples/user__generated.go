@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"gorm.io/gorm"
+	"github.com/artisanhe/gorm"
 	"github.com/artisanhe/tools/courier/enumeration"
 	"github.com/artisanhe/tools/duration"
 	"github.com/artisanhe/tools/mysql/dberr"
