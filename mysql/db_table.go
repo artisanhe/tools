@@ -38,9 +38,9 @@ func (dbTable *DBTable) Register(model Model) {
 func (dbTable *DBTable) AutoMigrate(db *gorm.DB) (err error) {
 	goEnv := env.GetRuntimeEnv()
 
-	if goEnv == env.ONLINE || goEnv == env.PRE {
-		return nil
-	}
+	//if goEnv == env.ONLINE || goEnv == env.PRE {
+		//return nil
+	//}
 
 	for _, model := range dbTable.list {
 		err := db.AutoMigrate(model).Error
